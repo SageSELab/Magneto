@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hierarchy rotation="3">
+  <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,86][1610,506]">
+    <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,86][1610,506]">
+      <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,86][1610,506]">
+        <node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,86][1610,506]">
+          <node index="0" text="" resource-id="org.mozilla.focus:id/list" class="android.support.v7.widget.RecyclerView" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,86][1610,506]">
+            <node index="0" text="" resource-id="org.mozilla.focus:id/whats_new" class="android.widget.LinearLayout" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,107][1610,233]">
+              <node index="0" text="What's New" resource-id="" class="android.widget.TextView" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,107][1610,233]"/>
+            </node>
+            <node index="1" text="Help" resource-id="org.mozilla.focus:id/help" class="android.widget.TextView" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,233][1610,359]"/>
+            <node index="2" text="Settings" resource-id="org.mozilla.focus:id/settings" class="android.widget.TextView" package="org.mozilla.focus" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[954,359][1610,485]"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</hierarchy>
