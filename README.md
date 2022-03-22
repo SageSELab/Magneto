@@ -9,12 +9,6 @@ This repo contains the datasets collected for the ![behavioral oracle taxonomy](
 
 MAGNETO automatically analyzes if an app contains failure of specific type. This repo also contains the source code to the automated part, example resources to try MAGNETO.
 
-## Dependencies
-MAGNETO supports building the project via [poetry](https://python-poetry.org/).
-All required dependencies are listed in <code>pyproject.toml</code> under _tool.poetry.dependencies_.
-If using poetry, simply run <code> poetry install </code> to install dependencies.
-If poetry is not used, you can also install the dependency individually via <code>pip install</code>.
-
 ## MAGNETO Approach Overview:
 
 ![MAGNETO Approach Overview](https://github.com/SageSELab/Magneto/blob/main/images/MAGNETO-overview.png)
@@ -40,3 +34,9 @@ If poetry is not used, you can also install the dependency individually via <cod
 
 `python <oracleScript.py> -a <appName> -b <bugId>`
 * Command line examples for each oracle type is in `AllTestScripts.txt`
+
+### Dependencies
+MAGNETO supports building the project via [poetry](https://python-poetry.org/).
+All required dependencies are listed in <code>pyproject.toml</code> under _tool.poetry.dependencies_.
+If using poetry, simply run <code> poetry install </code> to install dependencies.
+If poetry is not used, you can also install the dependency individually via <code>pip install</code>.
