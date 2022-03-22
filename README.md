@@ -7,7 +7,7 @@ This repo contains the datasets collected for the ![behavioral oracle taxonomy](
 
 ## Automated Oracles
 
-MAGNETO automatically analyzes if an app contains failure of specific type. This repo also contains the source code to the automated part, example resources to try MAGNETO.
+MAGNETO detects if an app contains failure using automated oracles. This repo also contains the source code to the automated part, and additional resources to run MAGNETO.
 
 ## MAGNETO Approach Overview:
 
