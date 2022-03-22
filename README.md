@@ -11,8 +11,9 @@ This repo is for our Magneto project on automated test oracles.
 ## Oracle Trigger Detection and Oracle Execution
 * The python scripts for trigger detection and oracle execution are in `oracleFromBehavior` folder.
 * This folder contains five automated oracle implementations:
+
 | folder | Oracle |
-| ---|---|
+|---|---|
 |![backButton](https://github.com/SageSELab/Magneto/tree/main/oracleFromBehavior/backButton) | Pressing back should lead to the previous screen |
 | `languageDetection` | The language change should be reflected on all screens |
 | `orientationChange` | The screen content should not change on rotation |
