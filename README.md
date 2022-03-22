@@ -9,16 +9,16 @@ This repo contains the datasets collected for the ![behavioral oracle taxonomy](
 
 MAGNETO detects if an app contains failure using automated oracles. This repo also contains the source code to the automated part, and additional resources to run MAGNETO.
 
-## MAGNETO Approach Overview:
+### MAGNETO Approach Overview:
 
 ![MAGNETO Approach Overview](https://github.com/SageSELab/Magneto/blob/main/images/MAGNETO-overview.png)
 
-## App Execution
+### App Execution
 * All the Android applications we used in this MAGNETO evaluation are in `apks` folder.
 * The result from *App Execution* for the different apps are in `oracleResourcesAll` folder.
 * `oracleResourcesAll` folder contains screen metadata in `uis` and screenshots in `screens` for all the buggy version and fixed version of the apps.
 
-## Oracle Trigger Detection and Oracle Execution
+### Oracle Trigger Detection and Oracle Execution
 * The five automated oracle implementations are in `oracleFromBehavior` folder.
 
 | folder | Oracle |
@@ -35,7 +35,7 @@ MAGNETO detects if an app contains failure using automated oracles. This repo al
 `python <oracleScript.py> -a <appName> -b <bugId>`
 * Command line examples for each oracle type is in `AllTestScripts.txt`
 
-### Dependencies
+#### Dependencies
 MAGNETO supports building the project via [poetry](https://python-poetry.org/).
 All required dependencies are listed in <code>pyproject.toml</code> under _tool.poetry.dependencies_.
 If using poetry, simply run <code> poetry install </code> to install dependencies.
