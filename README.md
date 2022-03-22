@@ -3,7 +3,7 @@
 This repo is for our MAGNETO project on automated test oracles for mobile apps.
 
 ## Behavioral Oracle Taxonomy
-This repo contains the datasets collected for the ![behavioral oracle taxonomy](https://github.com/SageSELab/Magneto/blob/main/images/taxonomy.pdf). Resources for ![taxonomy norming] (https://docs.google.com/spreadsheets/d/15dbbp-zaFA_6UBr0IVcsuBHmfVG0gCDYwTP-SBpybzo/edit?usp=sharing), ![axial coding] (https://docs.google.com/spreadsheets/d/1iddjAeBIdNvxcRswPsc1MG6jVpQXWIMrHJmr5aRgsyE/edit?usp=sharing), and ![taxonomy analysis](https://docs.google.com/spreadsheets/d/13setORacGxlAF8OOBpnzCIEt3vusN8ZPQPXQT9jDt_c/edit?usp=sharing) are also available.
+This repo contains the datasets collected for the ![behavioral oracle taxonomy](https://github.com/SageSELab/Magneto/blob/main/images/taxonomy.pdf). Resources for ![taxonomy norming](https://docs.google.com/spreadsheets/d/15dbbp-zaFA_6UBr0IVcsuBHmfVG0gCDYwTP-SBpybzo/edit?usp=sharing), ![axial coding](https://docs.google.com/spreadsheets/d/1iddjAeBIdNvxcRswPsc1MG6jVpQXWIMrHJmr5aRgsyE/edit?usp=sharing), and ![taxonomy analysis](https://docs.google.com/spreadsheets/d/13setORacGxlAF8OOBpnzCIEt3vusN8ZPQPXQT9jDt_c/edit?usp=sharing) are also available.
 
 ## Automated Oracles
 
