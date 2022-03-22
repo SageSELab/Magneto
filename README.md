@@ -1,6 +1,15 @@
 # Magneto
 
 This repo is for our Magneto project on automated test oracles.
+
+## Dependencies
+MAGNETO supports building the project via [poetry](https://python-poetry.org/).
+All required dependencies are listed in <code>pyproject.toml</code> under _tool.poetry.dependencies_.
+If using poetry, simply run <code> poetry install </code> to install dependencies.
+If poetry is not used, you can also install the dependency individually via <code>pip install</code>.
+
+## MAGNETO Approach Overview:
+
 ![MAGNETO Approach Overview](https://github.com/SageSELab/Magneto/blob/main/images/MAGNETO-overview.png)
 
 ## App Execution

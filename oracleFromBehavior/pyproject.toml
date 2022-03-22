@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "oraclefrombehavior"
+version = "0.1.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-image = "^0.19.1"
+opencv-python = "^4.5.5"
+imutils = "^0.5.4"
+pytesseract = "^0.3.8"
+colour-science = "^0.3.16"
+sklearn = "^0.0"
+langdetect = "^1.0.9"
+lxml = "^4.8.0"
+pycountry = "^22.1.10"
+polyglot = "^16.7.4"
+PyICU = "^2.8.1"
+pycld2 = "^0.41"
+torch = "^1.10.2"
+torchvision = "^0.11.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
