@@ -1,6 +1,15 @@
 # Magneto
 
-This repo is for our Magneto project on automated test oracles.
+This repo is for our MAGNETO project on automated test oracles for mobile apps.
+
+## Behavioral Oracle Taxonomy
+This repo contains the datasets collected for the behavioral oracle taxonomy.
+
+![Behavioral Oracle Taxonomy](https://github.com/SageSELab/Magneto/blob/main/images/taxonomy.png)
+
+## Automated Oracles
+
+MAGNETO automatically analyzes if an app contains failure of specific type. This repo also contains the source code to the automated part, example resources to try MAGNETO.
 
 ## Dependencies
 MAGNETO supports building the project via [poetry](https://python-poetry.org/).
