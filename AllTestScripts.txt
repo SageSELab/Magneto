@@ -1,0 +1,38 @@
+# 1. back button oracle
+# python SSIM-withoutReport.py -a <app name> -b <bugId>
+python SSIM-withoutReport.py -a phimpme -b 17
+python SSIM-withoutReport.py -a anki -b 92
+python SSIM-withoutReport.py -a anki -b 94
+
+# 2. theme change oracle
+# python themeCheck.py -a <app name> -b <bugId>
+python themeCheck.py -a commons -b 30
+python themeCheck.py -a k9 -b 79
+python themeCheck.py -a kiwix -b 65
+
+
+
+
+# 3. language detection oracle
+# python detectLanguage.py -a <app name> -b <bugId>
+# to check language in all subsequent screens
+python detectLanguageAll.py -a gpstest -b 31
+python detectLanguageAll.py -a focus -b 72
+python detectLanguageAll.py -a commons -b 28
+# to check language in only next screen
+python detectLanguageNext.py -a gpstest -b 31
+python detectLanguageNext.py -a focus -b 72
+python detectLanguageNext.py -a commons -b 28
+
+
+
+# 4. orientation change oracle
+python findRotationCheckInput.py -a on-call-manager -b 1
+python findRotationCheckInput.py -a PSLab -b 11
+python findRotationCheckInput.py -a qksms -b 47
+
+
+# 5.a. user entered data oracle
+python findTriggerCheckInput.py -a memento -b 25
+python findTriggerCheckInput.py -a anki -b 97
+python findTriggerCheckInput.py -a alarmio -b 103
