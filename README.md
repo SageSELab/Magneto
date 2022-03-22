@@ -1,7 +1,7 @@
 # Magneto
 
 This repo is for our Magneto project on automated test oracles.
-![MAGNETO Approach Overview](https://github.com/SageSELab/Magneto/images/blob/main/MAGNETO-overview.png)
+![MAGNETO Approach Overview](https://github.com/SageSELab/Magneto/blob/main/images/MAGNETO-overview.png)
 
 ## App Execution
 * All the Android applications we used in this MAGNETO evaluation are in `apks` folder.
